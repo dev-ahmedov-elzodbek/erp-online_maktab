@@ -26,6 +26,12 @@ import { YangiGuruhPage } from "@/pages/admin/guruh-yangi-page";
 import { JadvalPage } from "@/pages/admin/jadval-page";
 import { DavomatPage } from "@/pages/admin/davomat-page";
 import { OqituvchilarPage as AdminOqituvchilarPage } from "@/pages/admin/oqituvchilar-page";
+import { BaholarPage } from "@/pages/admin/baholar-page";
+import { AdminTolovlarPage } from "@/pages/admin/tolovlar-page";
+import { MoliyaPage } from "@/pages/admin/moliya-page";
+import { XabarlarPage } from "@/pages/admin/xabarlar-page";
+import { HisobotlarPage } from "@/pages/admin/hisobotlar-page";
+import { AdminSozlamalarPage } from "@/pages/admin/sozlamalar-page";
 import { StudentDashboardPage } from "@/pages/student/dashboard-page";
 import { KatalogPage } from "@/pages/student/katalog-page";
 import { KurslarimPage } from "@/pages/student/kurslarim-page";
@@ -74,6 +80,12 @@ export default function App() {
           <Route path="jadval" element={<JadvalPage />} />
           <Route path="davomat" element={<DavomatPage />} />
           <Route path="oqituvchilar" element={<AdminOqituvchilarPage />} />
+          <Route path="baholar" element={<BaholarPage />} />
+          <Route path="tolovlar" element={<AdminTolovlarPage />} />
+          <Route path="moliya" element={<MoliyaPage />} />
+          <Route path="xabarlar" element={<XabarlarPage />} />
+          <Route path="hisobotlar" element={<HisobotlarPage />} />
+          <Route path="sozlamalar" element={<AdminSozlamalarPage />} />
         </Route>
       </Route>
 
